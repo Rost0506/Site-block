@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+header {
+    background-color: #0b7000;
+    background-image: linear-gradient(to bottom, #139c02, #0f7303) background-repeat: repeat-x;
+    border-color: #17ce03 #17ce03 #0f7303;
+    margin: 0;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    overflow: hidden;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 80%;
+}
+/*я знаю, что можно было обращаться к элементам через id, но через title я еще не пробовал, так что решил так.*/
+img[title="МЯСОК"]{
+    margin-left: 165px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+img[title="Goods"]{
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    height: 75px;
+    padding-bottom: 2px;
+}
+.line{
+    background: #308844;
+    margin-top: 75px;
+    height: 18px;
+}
+#line{
+    color: #fff;
+    margin-left: 175px;
+    padding-bottom: 2px;
+    font-family: "Roboto", Arial, sens-serif;
+    font-size: 12px;
+}
+img[title="Salo"]{
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-right: 0px;
+    float: left;
+    padding: 0;
+}
+main{
+    width: 40%;
+    padding-top: 60px;
+    margin-left: 700px;
+    color: #333333;
+    font-size: 16px;
+    font-weight:500;
+}
+h1{
+    font-family: "Arial Black", Arial;
+    font-size: 22px;
+    color: #444444;
+    font-weight: bold;
+}
+a[href="https://myasok.com.ua/delivery"]{
+    color: green;
+}
+img[title="buy"]{
+    margin-top: 40px;
+    margin-left: 60px;
+    padding: 0;
+    border: 1px solid #000000;
+}
+img[title="inst"]{
+    box-sizing: content-box;
+    position: fixed;
+    bottom: calc(15% + 100px);
+    right: 20px;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius: 70%;
+    width: 80px;
+    height: 80px;
+    z-index: 99;
+    box-shadow: 0 0 10px #000000;
+}
+img[title="fb"] {
+    box-sizing: content-box;
+    position: fixed;
+    bottom: calc(15% + 0px);
+    right: 20px;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius: 70%;
+    width: 80px;
+    height: 80px;
+    z-index: 99;
+    box-shadow: 0 0 10px #000000;
+
+}
+img[title="tg"]{
+    box-sizing: content-box;
+    position: fixed;
+    bottom: calc(15% - 100px);
+    right: 20px;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius: 70%;
+    width: 80px;
+    height: 80px;
+    z-index: 99;
+    box-shadow: 0 0 10px #000000;
+}
+.info{
+    clear: both;
+    margin-top: 110px;
+    text-align: left;
+    margin-left: -550px;
+    border: 2px solid #A9A9A9;
+    padding: 50px 100px;
+}
+footer{
+    display: block;
+    margin-top: 30px;
+    margin-left: 30px;
+    line-height: 1;
+    padding-top: 30px;
+    background-color: white;
+    border-top: 1px solid #f6f6f6;
+    color: #000000;
+}
